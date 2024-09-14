@@ -1,0 +1,43 @@
+.card_shop{
+  min-height: 31.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-image: var(--imgBg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 390 / 316;
+}
+.card_shop:hover:before{
+  background-color: #00000090;
+}
+.card_shop:hover .card_shop_name, .card_shop:hover .card_shop_link{
+  transform: translateY(-1rem)
+}
+.card_shop:before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #00000053;
+  pointer-events: none;
+  z-index: 1;
+  transition: .6s ease all;
+}
+.card_shop_name{
+  position: relative;
+  z-index: 2;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--cl-white);
+  transition: .6s ease all;
+  text-transform: uppercase
+
+}
+.card_shop_link{
+  position: relative;
+  z-index: 2;
+  transition: .6s ease all;
+}

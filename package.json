@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "formik": "^2.4.6",
+    "lenis": "^1.1.13",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "split-type": "^0.3.4",
+    "swiper": "^11.1.10",
+    "yup": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "@types/react": "^18.3.5",
+    "typescript": "^5.5.4",
+    "typescript-plugin-css-modules": "^5.1.0"
+  }
+}

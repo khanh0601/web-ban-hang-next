@@ -1,0 +1,109 @@
+.product_wrap{
+  /* padding: 2rem; */
+}
+.category{
+  padding: .5rem;
+  color: white;
+  font-weight: 600;
+  background: #000;
+  font-size: 1.2rem;
+}
+.like{
+  position: relative;
+  /* top: 1rem; */
+  width: 3.2rem;
+  color:#000;
+  transition: all ease .1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.like svg path{
+  transition: .6s ease all;
+  fill: transparent;
+}
+.like:hover{
+  color: #FF3366;
+}
+.like:hover svg path{
+  fill: #FF3366;
+}
+.productImg{
+  width: 100%;
+  min-height: 23rem;
+  object-fit: cover;
+  margin: 0rem 0 3rem 0;
+  aspect-ratio:1;
+}
+.product_title{
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: .4rem;
+  text-align:center;
+}
+.name_shop{
+  font-size: 1.4rem;
+  color: #898989;
+  text-decoration: underline;  
+  text-align:center;
+}
+.product_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding-right: 1rem;
+  z-index: 10;
+  padding: 1.6rem 1rem;
+  background-color: #FFFFFF33;
+  /* filter: blur(.5rem) */
+  backdrop-filter: blur(1.3rem);
+}
+.name_tag{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin: 1.3rem 0;
+  color: #000;
+  text-align:center;
+  justify-content: center;
+  font-size: 1.4rem
+}
+.name_tag span{
+  padding: .3rem .6rem .42rem .6rem;
+  /* background-image: linear-gradient(90deg, #00c2ff, #ffe500 25%, #ff004b 50%, #ffe500 75%, #00c2ff); */
+  background-size: 200% 100%;
+  font-weight: 500;
+  font-size:1.2rem;
+  border-radius: 1rem;
+  color: black;
+  border: 1px solid black;
+  border-radius: .4rem;
+  /* animation: animBg 10s linear infinite; */
+}
+ @keyframes animBg{
+  0% {
+    background-position:100%;
+}
+100% {
+    background-position: 300%;
+}
+ }
+.price_wrap{
+  font-size: 1.4rem;
+  color: 000;
+  text-align:center;
+  margin-bottom: 1.5rem;
+}
+.price{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.productImg_wrap{
+  width: 100%;
+}
